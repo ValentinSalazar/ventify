@@ -1,5 +1,5 @@
 function InicioPage (){
-    return <h1>hOLa</h1>
+    return <h1>hola!</h1>
 }
 
 export default InicioPage;
