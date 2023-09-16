@@ -29,7 +29,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="md:hidden text-white bg-slate-800 h-16 relative shadow-xl">
+    <nav className="md:hidden text-white bg-slate-800 h-16 relative shadow-primaryShadow">
       <button
         className="absolute left-4 top-1/2 -translate-y-1/2"
         onClick={handleClick}
@@ -40,7 +40,7 @@ function Navbar() {
       <ul
         className={
           navBar
-            ? "bg-slate-800 p-2 [&>a]:flex [&>a]:gap-2 [&>a]:p-2 [&>a]:my-2 [&>a]:rounded w-80 relative top-20 left-2 rounded list-none shadow-2xl"
+            ? "bg-slate-800 p-2 [&>a]:flex [&>a]:gap-2 [&>a]:p-2 [&>a]:my-2 [&>a]:rounded w-80 relative top-20 left-2 rounded list-none shadow-secondShadow"
             : "hidden"
         }
       >

@@ -13,6 +13,10 @@ const config: Config = {
       },
       backgroundColor: {
         primaryBgColor: '#AAC0AA'
+      },
+      boxShadow: {
+        firstShadow: '0px 3px 6px rgba(0,0,0,0.4)',
+        secondShadow: '3px 3px 6px rgba(0,0,0,0.3)'
       }
     },
   },
