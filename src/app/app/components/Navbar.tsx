@@ -18,7 +18,7 @@ import { usePathname } from "next/navigation";
 function Navbar() {
   const pathName = usePathname();
 
-  const isActiveLink = (href: any) => {
+  const isActiveLink = (href: string) => {
     return pathName === href ? "bg-slate-500" : "text-white";
   };
 
