@@ -1,6 +1,6 @@
 export default function AuthLayout({children}:{children:React.ReactNode}) {
     return(
-        <div className="flex items-center justify-center">
+        <div className="relative flex items-center justify-center">
             <main className="flex items-center justify-center h-screen w-full p-4 [&>aside]:h-[80vh] text-black md:w-[90vw] lg:w-[70vw]">
             <aside className="hidden md:block md:w-[50%] md:h-[500px] md:bg-primaryColor md:rounded-l-lg md:shadow-2xl">Hola</aside>
             <aside className="relative flex flex-col justify-center w-full p-10 bg-primaryColor h-[400px] md:h-[500px] rounded-lg shadow-2xl md:w-[50%] md:bg-transparent md:rounded-r-lg md:rounded-none text-balance">
